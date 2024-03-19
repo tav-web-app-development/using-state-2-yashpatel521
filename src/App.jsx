@@ -9,7 +9,7 @@ function App() {
   const [itemsInCart, setItemsInCart] = useState(0);
   user.itemsInCart = itemsInCart;
 
-  const [checkout, setCheckout] = useState(true);
+  const [checkout, setCheckout] = useState(false);
   return (
     <main className="store">
       <NavBar user={user} checkout={checkout} setCheckout={setCheckout} />
